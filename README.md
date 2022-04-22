@@ -32,3 +32,5 @@
 <p>APOS ISSO OS DADOS SOBRE O SISTEMA SERÃO APRESENTADOS NO TERMINAL.</p>
 
 <h2>Picture</h2>
+
+![nodejswhoami](https://user-images.githubusercontent.com/79015823/164817752-cc7a96a2-0d31-438e-b950-319ace522f36.jpg)
