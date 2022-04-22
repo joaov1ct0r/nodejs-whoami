@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Sistema para reconhecimento de dados do sistema operacional",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node src/index.js"
   },
