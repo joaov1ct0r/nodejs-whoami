@@ -1,20 +1,22 @@
 import os from 'os';
 
-let sysArch = os.arch();
+let { arch, cpus, totalmem, hostname, networkInterfaces, type, userInfo } = os;
 
-let sysCpus = os.cpus();
+let sysArch = arch();
+
+let sysCpus = cpus();
 
 let sysCore = sysCpus.length;
 
-let totalSysMemory = parseInt(os.totalmem() / 1024 / 1024);
+let totalSysMemory = parseInt(totalmem() / 1024 / 1024);
 
-let sysDeviceName = os.hostname();
+let sysDeviceName = hostname();
 
-let sysNetworkInterfaces = os.networkInterfaces();
+let sysNetworkInterfaces = networkInterfaces();
 
-let sysOs = os.type();
+let sysOs = type();
 
-let sysUserInfo = os.userInfo();
+let sysUserInfo = userInfo();
 
 let info = {
     os: sysOs,
@@ -27,4 +29,6 @@ let info = {
     network: sysNetworkInterfaces
 };
 
+console.log('========== INFO ==========');
 console.log(info);
+console.log('========== INFO ==========');
