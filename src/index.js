@@ -15,3 +15,5 @@ let sysDeviceName = os.hostname();
 let sysNetworkInterfaces = os.networkInterfaces();
 
 let sysOs = os.type();
+
+let sysUserInfo = os.userInfo();
