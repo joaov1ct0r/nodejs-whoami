@@ -14,4 +14,4 @@ let sysDeviceName = os.hostname();
 
 let sysNetworkInterfaces = os.networkInterfaces();
 
-let sysPlatform = os.platform();
+let sysOs = os.type();
